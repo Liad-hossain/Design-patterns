@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "design-patterns"
+version = "0.1.0"
+description = "Learning Design Patterns"
+authors = ["Md Liad Hossain"]
+license = "N/A"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^3.8.0"
+isort = "^5.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+autoflake = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
