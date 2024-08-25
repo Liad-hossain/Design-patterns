@@ -1,5 +1,9 @@
-from Design_patterns.structural_design_patterns.proxy_design_pattern.example_1.ProxyInternet import ProxyInternet
-from Design_patterns.structural_design_patterns.proxy_design_pattern.example_1.RealInternet import RealInternet
+from Design_patterns.structural_design_patterns.proxy_design_pattern.example_1.ProxyInternet import (
+    ProxyInternet,
+)
+from Design_patterns.structural_design_patterns.proxy_design_pattern.example_1.RealInternet import (
+    RealInternet,
+)
 
 # Client code
 employee_internet = ProxyInternet()

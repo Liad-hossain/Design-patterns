@@ -1,4 +1,6 @@
-from Design_patterns.structural_design_patterns.decorator_design_pattern.example_1.BaseDecorator import EditorDecorator
+from Design_patterns.structural_design_patterns.decorator_design_pattern.example_1.BaseDecorator import (
+    EditorDecorator,
+)
 
 
 class GrammerCheckDecorator(EditorDecorator):
@@ -14,7 +16,7 @@ class GrammerCheckDecorator(EditorDecorator):
         corrected_text = self._check_grammer(self.editor.get_text())
         self.set_text(corrected_text)
 
-        return editor_display + '\n' + "Grammer checked: " + corrected_text
+        return editor_display + "\n" + "Grammer checked: " + corrected_text
 
     def _check_grammer(self, text: str) -> str:
         return text.replace("are a", "is a")

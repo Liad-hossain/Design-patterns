@@ -1,7 +1,8 @@
 from abc import ABC, abstractmethod
 
-from Design_patterns.creational_design_patterns.builder_design_pattern.example_1.Meal import \
-    Meal
+from Design_patterns.creational_design_patterns.builder_design_pattern.example_1.Meal import (
+    Meal,
+)
 
 
 class MealBuilder(ABC):

@@ -1,5 +1,8 @@
-from Design_patterns.structural_design_patterns.decorator_design_pattern.example_1.EditorInterface import TextEditor
 from abc import abstractmethod
+
+from Design_patterns.structural_design_patterns.decorator_design_pattern.example_1.EditorInterface import (
+    TextEditor,
+)
 
 
 class EditorDecorator(TextEditor):

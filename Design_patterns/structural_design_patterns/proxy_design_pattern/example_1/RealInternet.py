@@ -1,4 +1,6 @@
-from Design_patterns.structural_design_patterns.proxy_design_pattern.example_1.InternetInterface import Internet
+from Design_patterns.structural_design_patterns.proxy_design_pattern.example_1.InternetInterface import (
+    Internet,
+)
 
 
 class RealInternet(Internet):

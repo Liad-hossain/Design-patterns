@@ -1,5 +1,6 @@
-from Design_patterns.creational_design_patterns.prototype_design_pattern.example_1.Person import \
-    Person
+from Design_patterns.creational_design_patterns.prototype_design_pattern.example_1.Person import (
+    Person,
+)
 
 
 class Employee(Person):

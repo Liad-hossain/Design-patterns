@@ -1,4 +1,6 @@
-from Design_patterns.structural_design_patterns.decorator_design_pattern.example_1.BaseDecorator import EditorDecorator
+from Design_patterns.structural_design_patterns.decorator_design_pattern.example_1.BaseDecorator import (
+    EditorDecorator,
+)
 
 
 class AutoSaveDecorator(EditorDecorator):
@@ -13,7 +15,7 @@ class AutoSaveDecorator(EditorDecorator):
         saved_text = self._auto_save(self.editor.get_text())
         self.set_text(saved_text)
 
-        return editor_display + '\n' + "Auto saved: " + saved_text
+        return editor_display + "\n" + "Auto saved: " + saved_text
 
     def _auto_save(self, text: str) -> str:
         return text

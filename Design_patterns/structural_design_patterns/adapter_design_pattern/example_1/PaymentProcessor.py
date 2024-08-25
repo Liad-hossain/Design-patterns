@@ -1,7 +1,18 @@
-from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.PaymentGateway import PaymentGateway
-from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.adapters.Paypal import Paypal, PaypalAdapter
-from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.adapters.Stripe import Stripe, StripeAdapter
-from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.adapters.LegacyBank import LegacyBank, LegacyBankAdapter
+from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.adapters.LegacyBank import (
+    LegacyBank,
+    LegacyBankAdapter,
+)
+from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.adapters.Paypal import (
+    Paypal,
+    PaypalAdapter,
+)
+from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.adapters.Stripe import (
+    Stripe,
+    StripeAdapter,
+)
+from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.PaymentGateway import (
+    PaymentGateway,
+)
 
 
 class PaymentProcessor:

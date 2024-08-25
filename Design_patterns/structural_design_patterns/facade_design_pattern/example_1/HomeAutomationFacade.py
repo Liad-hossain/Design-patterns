@@ -1,7 +1,15 @@
-from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.LightControl import Light
-from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.MusicControl import MusicSystem
-from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.SecurityControl import SecurityCamera
-from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.ThermostatControl import Thermostat
+from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.LightControl import (
+    Light,
+)
+from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.MusicControl import (
+    MusicSystem,
+)
+from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.SecurityControl import (
+    SecurityCamera,
+)
+from Design_patterns.structural_design_patterns.facade_design_pattern.example_1.subsystems.ThermostatControl import (
+    Thermostat,
+)
 
 
 class HomeAutomationFacade:

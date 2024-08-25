@@ -1,7 +1,9 @@
-from Design_patterns.creational_design_patterns.builder_design_pattern.example_1.Meal import \
-    Meal
-from Design_patterns.creational_design_patterns.builder_design_pattern.example_1.MealBuilder import \
-    MealBuilder
+from Design_patterns.creational_design_patterns.builder_design_pattern.example_1.Meal import (
+    Meal,
+)
+from Design_patterns.creational_design_patterns.builder_design_pattern.example_1.MealBuilder import (
+    MealBuilder,
+)
 
 
 class NonVegMealBuilder(MealBuilder):
