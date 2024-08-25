@@ -1,5 +1,8 @@
 from abc import ABC, abstractmethod
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.Notification import Notification
+
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.Notification import (
+    Notification,
+)
 
 
 class Platform(ABC):

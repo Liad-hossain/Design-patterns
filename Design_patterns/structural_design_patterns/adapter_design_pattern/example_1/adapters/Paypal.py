@@ -1,4 +1,6 @@
-from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.PaymentGateway import PaymentGateway
+from Design_patterns.structural_design_patterns.adapter_design_pattern.example_1.PaymentGateway import (
+    PaymentGateway,
+)
 
 
 class Paypal:

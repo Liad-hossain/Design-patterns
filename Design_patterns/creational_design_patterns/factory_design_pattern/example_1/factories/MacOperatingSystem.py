@@ -1,5 +1,6 @@
-from Design_patterns.creational_design_patterns.factory_design_pattern.example_1.factories.OperatingSystem import \
-    OperatingSystem
+from Design_patterns.creational_design_patterns.factory_design_pattern.example_1.factories.OperatingSystem import (
+    OperatingSystem,
+)
 
 
 class MacOperatingSystem(OperatingSystem):

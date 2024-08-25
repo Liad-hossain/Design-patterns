@@ -1,11 +1,15 @@
-from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.LinuxFactory import \
-    LinuxFactory
-from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.MacFactory import \
-    MacFactory
-from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.UIFactory import \
-    UIFactory
-from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.WindowsFactory import \
-    WindowsFactory
+from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.LinuxFactory import (
+    LinuxFactory,
+)
+from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.MacFactory import (
+    MacFactory,
+)
+from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.UIFactory import (
+    UIFactory,
+)
+from Design_patterns.creational_design_patterns.abstract_factory_design_pattern.example_1.factories.WindowsFactory import (
+    WindowsFactory,
+)
 
 
 class OperatingSystemFactory:

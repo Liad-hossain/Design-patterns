@@ -1,10 +1,24 @@
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.platforms.WindowsPlatform import WindowsPlatform
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.platforms.LinuxPlatform import LinuxPlatform
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.platforms.MacPlatform import MacPlatform
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.notifications.WhatsAppNotification import WhatsAppNotification
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.notifications.EmailNotification import EmailNotification
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.notifications.SMSNotification import SMSNotification
-from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.Platform import Platform
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.notifications.EmailNotification import (
+    EmailNotification,
+)
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.notifications.SMSNotification import (
+    SMSNotification,
+)
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.notifications.WhatsAppNotification import (
+    WhatsAppNotification,
+)
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.Platform import (
+    Platform,
+)
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.platforms.LinuxPlatform import (
+    LinuxPlatform,
+)
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.platforms.MacPlatform import (
+    MacPlatform,
+)
+from Design_patterns.structural_design_patterns.bridge_design_pattern.example_1.platforms.WindowsPlatform import (
+    WindowsPlatform,
+)
 
 
 class NOtificationSystem:
@@ -16,7 +30,11 @@ class NOtificationSystem:
 
 
 if __name__ == "__main__":
-    print(NOtificationSystem(WindowsPlatform(WhatsAppNotification())).deliver("Hello Alice!"))
+    print(
+        NOtificationSystem(WindowsPlatform(WhatsAppNotification())).deliver(
+            "Hello Alice!",
+        ),
+    )
 
     print("")
 
